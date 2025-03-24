@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Till Lindemann</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- //Versão 2 -->
+    <header>
+      <div class="header-left">
+        <h1>Till Lindemann</h1>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <figure>
+        <img
+          src="assets/img/till1.png"
+          alt="Imagem do cantor alemão Till Lindemann"
+        />
+        <!-- <figcaption>Imagem do cantor de rap Mano Brown</figcaption> -->
+      </figure>
+
+      <!--CARD ABOUT-->
+      <section class="about">
+        <h2>Hey, meu nome é Till Lindemann</h2>
+        <p>
+          Sou Till Lindemann um poeta, compositor, ator, e vocalista da banda
+          alemã Rammstein. Filho de Brigitte "Gitta" Hildegard e do poeta
+          Werner Lindemann, cresci no vilarejo de Wendisch-Rambow,
+          em Schwerin, no estado de Mecklemburgo-Pomerânia Ocidental na Alemanha.
+        </p>
+        <div class="buttons">
+          <button class="primary">Projetos</button>
+          <button class="secondary">LinkedIn</button>
+        </div>
+      </section>
+
+      <!--CARDs-->
+      <section class="projects">
+        <h2>Projetos</h2>
+        
+        <!--CARD 1-->
+        <div class="card">
+          <div class="card-left">
+            <h3>Zunge</h3>
+            <p>Zunge foi meu o primeiro álbum solo. Foi lançado em 3
+            de novembro de 2023. A versão em CD começou a ser vendida
+            no dia 10 de novembro durante a turnê, e foi lançada em 17
+            de novembro.</p>
+            <button class="secondary"> Ver projetos</button>
+
+          </div>
+
+          <div class="card-right">
+            <img
+              src="assets/img/till2.png"
+              alt="Capitão"
+            />
+            
+          </div>
+        </div>
+
+        <!--CARD 2-->
+        <div class="card card-reverse" style="flex-direction: row-reverse;">
+          <div class="card-left">
+            <h3>Rammstein</h3>
+            <p>Rammstein é uma banda alemã formada em Berlim, em Janeiro de 1994.
+            É formada desde a fundação por mim Till Lindemann, Richard Z. Kruspe,
+            Paul H. Landers, Oliver "Ollie" Riedel, Christoph "Doom" Schneider
+            e Christian "Flake" Lorenz. Em 2009, já haviamos vendido cerca
+            de 20 milhões de álbuns no mundo todo.</p>
+            <button class="secondary"> Ver projetos</button>
+
+          </div>
+
+          <div class="card-right">
+            <img
+              src="assets/img/rammstein1.png"
+              alt="Capitão"
+            />
+            
+          </div>
+        </div>
+
+        <!--CARD 3-->
+        <div class="card">
+          <div class="card-left">
+            <h3>Mutter</h3>
+            <p>Mutter é considerado por muitos nosso melhor album foi
+            gravado entre os anos de 2000 e 2001. As faixas em destaque
+            são  Mein Herz Brennt (Meu coração queima), Sonne (Sol),
+            Mutter (mãe), Ich Will (Eu quero), Feuer Frei (Fogo Livre).
+            Mutter foi um sucesso comercial e crítico, alcançando o topo
+            das paradas na Alemanha e vendendo milhões de cópias mundialmente.
+            </p>
+            <button class="secondary"> Ver projetos</button>
+
+          </div>
+
+          <div class="card-right">
+            <img
+              src="assets/img/rammstein2.png"
+              alt="Capitão"
+            />
+            
+          </div>
+        </div>
+
+
+      </section>
+
+      <!--CONTATO-->
+      <section class="contact">
+
+      <h2 class="underline">CONTATO</h2>
+
+      <form action="" method="post" class="form-contact">
+
+      <div class="form-input">
+          <label for="name">Nome</label>
+          <input required="" autocomplete="off" id="nome" type="text" placeholder="João Miguel">
+      </div>
+
+      <div class="form-input">
+          <label for="email">E-mail</label>
+          <input type="text" id="email" placeholder="Exemplo: email@email.com">
+      </div>
+
+      <div class="form-input">
+          <label for="message">Message</label>
+          <textarea required="" cols="30" rows="1" id="message" placeholder="Sua mensagem"></textarea>
+
+      <div class="button">
+      <button type="submit" class="primary">Send message →</button>
+      </form>
+    
+    </section>
+
+    <footer>
+      <div class="icons">
+      <a href="https://www.instagram.com/till_lindemann_official/" target="blank">
+        <img alt="Instagram" src="assets/img/insta.png" width="38" height="38"> 
+      </a>
+
+      <a href="https://open.spotify.com/intl-pt/artist/6wWVKhxIU2cEi0K81v7HvP" target="blank">
+        <img alt="Spotify" src="assets/img/spot.png" width="38" height="38"> 
+      </a>
+
+      <a href="mailto:info@rammstein-management.de" target="blank">
+        <img alt="E-mail" src="assets/img/email.png" width="38" height="38"> 
+      </a>
+
+    </div>
+      <p>Programação Front End 2025</p>
+
+    </footer>
+
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
